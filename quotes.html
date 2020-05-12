@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Favoutite Quotes</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+      p{
+        display: flex;
+      }
+      .noshow{
+        visibility: hidden;
+      }
+
+      .show{
+        visibility: visible;
+      }
+
+      @media print {
+        .show{
+          visibility: hidden;
+        }
+        .noshow{
+          visibility: visible;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>These are some of the best engineering quotes you'll ever hear. &#9997;</h1>
+    <h4>Print the screen to see something special. (Ctrl + P)</h4>
+    <p class="text-light show">“I’ve never seen a job being done by a five-hundred-person engineering team that couldn’t be done better by fifty people." <span class="font-italic">- C. Gordon Bell</span></p>
+
+    <p class="text-dark noshow">“Engineering is not only study of 45 subjects but it is moral studies of intellectual life.” <span class="font-italic">- Prakhar Srivastav</span>
+
+    <p class="text-light show">“I don’t spend my time pontificating about high-concept things; I spend my time solving engineering and manufacturing problems.” <span class="font-italic">- Elon Musk</span></p>
+
+    <p class="text-dark noshow">“But remember this, Japanese boy... airplanes are not tools for war. They are not for making money. Airplanes are beautiful dreams. Engineers turn dreams into reality.” <span class="font-italic">- Hayao Miyazaki</span></p>
+
+    <p class="text-light show">“What we usually consider as impossible are simply engineering problems… there’s no law of physics preventing them.” <span class="font-italic">- Michio Kaku</span>
+
+    <p class="text-dark noshow">“I was originally supposed to become an engineer but the thought of having to expend my creative energy on things that make practical everyday life even more refined, with a loathsome capital gain as the goal, was unbearable to me.” <span class="text-italic">- Albert Einstein</span>
+</p>
+    <a class="text-warning" href="home.html">&#171 Go Back Home.</a>
+  </body>
+</html>
